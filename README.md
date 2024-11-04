@@ -1,6 +1,17 @@
 # Commute Times
 Simple script I wrote to help me track the commute times from home to work and work to home during the week. 
 
+## Setup
+```
+py -3.12-64 -m venv ./venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python .\traveltime.py
+python .\plot.py
+```
+
 ## API Access
 To set up API with Google Maps go to this website: 
 
